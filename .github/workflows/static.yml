@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <style>
+      p {
+          margin-bottom: 20px; /* Altere o valor conforme necessário */
+          margin: 5px; /* Altere o valor conforme necessário */
+      }
+  </style>
+<body>
+
+    <h1>SUPERMERCADO MARTINS</h1>
+    <p>Número do Pedido: NPD</p>
+    <p>Cliente: NDC</p>
+    <p>Telefone: TDC</p>
+    <p>Endereço: EDC</p>
+
+    <table>
+      <tr>
+          <th> 
+          </th>
+      </tr>
+      <tr>
+          <th> </th>
+      </tr>
+    <tr>
+        <th>--------------------- Itens ---------------------</th>
+    </tr>
+    <tr>
+        <td>LISTA1</td>
+    </tr>
+    <tr>
+        <td>LISTA2</td>
+    </tr>
+    <tr>
+        <td>LISTA3</td>
+    </tr>
+    </table>
+    <p>--------------------------------------------------</p>
+    <p>Total: R$ TDC</p>
+
+
+    <p>Forma de Pagamento: FDP</p>
+    <p>Troco: TR@</p>  
+    <button onclick="imprimir()">Imprimir</button>
+
+    <script>
+        function imprimir() {
+            window.print();
+        }
+    </script>
+</body>
+</html>
+<!-- Path: index.html -->
